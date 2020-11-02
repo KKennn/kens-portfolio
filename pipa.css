@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #F0E9E1;
+}
+
+.header {
+    width: 100%;
+    height: 64px;
+    background: pink;
+}
+
+.feature-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.wrap,
+.header-wrap {
+    max-width: 816px;
+    margin: 0 auto;
+}
+
+.content-image {
+    width: 100%;
+}
