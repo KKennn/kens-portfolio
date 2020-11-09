@@ -1,13 +1,14 @@
 body {
     margin: 0px;
     font-family: 'Nanum Gothic', sans-serif;
-    background: #F0E9E1;
+    background: #FFF9EC;
 }
 
 .header {
     width: 100%;
     height: 64px;
-    background: pink;
+    display: flex;
+    padding: 0 40px;
 }
 
 .feature-image {
@@ -16,12 +17,26 @@ body {
     object-fit: cover;
 }
 
-.wrap,
-.header-wrap {
+.wrap {
     max-width: 816px;
     margin: 0 auto;
 }
 
 .content-image {
     width: 100%;
+}
+
+.header-logo {
+    height: 40px;
+    margin: 12px 0;
+}
+
+.header-button {
+    margin: auto 16px;
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.header-buttons-container {
+    display: flex;
 }
