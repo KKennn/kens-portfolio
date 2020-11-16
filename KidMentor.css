@@ -35,7 +35,8 @@ h1 {
     line-height: 54px;
 }
 
-h2 {
+h2,
+.subtitle {
     font-family: 'Calistoga';
     text-align: center;
     color: #21409A;
@@ -44,7 +45,8 @@ h2 {
     margin-bottom: 16px;
 }
 
-h3 {
+h3,
+.section-title {
     font-family: 'Calistoga';
     font-size: 20px;
     font-weight: 300;
@@ -112,14 +114,14 @@ img {
 }
 
 .title {
-    font-size: 48px;
+    font-size: 72px;
     color: #4BE0D0;
     font-weight: 800;
     font-family: 'Calistoga';
 }
 
 .title-2 {
-    font-size: 48px;
+    font-size: 72px;
     color: #21409A;
     font-weight: 800;
     font-family: 'Calistoga';
@@ -136,36 +138,27 @@ img {
     display: flex;
 }
 
-.section-block-title {
+.section-intro {
     flex: 3;
-    margin-right: 16px;
+    margin-right: 32px;
 }
 
-.section-block-content {
+.section-content {
     flex: 7;
-    margin-left: 16px;
 }
 
 @media (max-width: 768px) {
     .section-block {
         display: inline;
     }
-    .section-block-title {
+    .section-block-intro {
         margin-right: 0px;
-    }
-    .section-block-content {
-        margin-left: 0px;
     }
 }
 
 .interview-heading {
     color: #21409A;
     font-weight: 600;
-}
-
-.problem-tree {
-    width: 50%;
-    margin: 0 25%;
 }
 
 .next-project {
