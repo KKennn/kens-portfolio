@@ -7,6 +7,14 @@ function onProject(err, records) {
     if (err) { console.error(err); return; }
     console.log(records);
 
+    let header = document.getElementsByClassName("header")[0];
+    header.innerHTML = `
+        <a href="index.html"><img class="header-logo" src="logo.gif" alt="Logo"></a>
+        <div class="header-button"><a href="index.html">Design</a></div>
+        <div class="header-button"><a href="index.html#A+C">Art+Code</a></div>
+        <div class="header-button"><a href="about.html">About</a></div>
+    `
+
     let wrap = document.getElementsByClassName("wrap")[0];
     for (let i = 0; i < records.length; i++) {
         let thisDiv = document.createElement("div");
