@@ -58,6 +58,9 @@ function onProject(err, records) {
             }
             if (records[i].fields.Image) {
                 let thisImg = document.createElement("img");
+                // if (records[i].fields.Image.image - width - percentage) {
+                //     // thisImg.setAttribute()
+                // }
                 thisImg.setAttribute("src", records[i].fields.Image[0].url);
                 thisDiv.appendChild(thisImg);
             }

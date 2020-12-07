@@ -120,6 +120,7 @@ img {
     font-size: 72px;
     color: #4BE0D0;
     font-weight: 800;
+    letter-spacing: 4px;
     /* font-family: 'Calistoga'; */
 }
 
@@ -127,6 +128,7 @@ img {
     font-size: 72px;
     color: #21409A;
     font-weight: 800;
+    letter-spacing: 4px;
     /* font-family: 'Calistoga'; */
 }
 
@@ -137,17 +139,18 @@ img {
 }
 
 .section-block {
-    margin: 32px 0;
+    margin-bottom: 40px;
     display: flex;
 }
 
 .section-intro {
     flex: 3;
-    margin-right: 64px;
+    margin-right: 80px;
 }
 
 .section-content {
     flex: 7;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -176,6 +179,7 @@ img {
     border: #21409A 1px solid;
     color: #21409A;
     cursor: pointer;
+    letter-spacing: 3px;
 }
 
 .next-project:hover {

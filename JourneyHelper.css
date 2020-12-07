@@ -120,6 +120,7 @@ img {
     font-size: 72px;
     color: #1cd2f9;
     font-weight: 800;
+    letter-spacing: 4px;
     /* font-family: 'Calistoga'; */
 }
 
@@ -127,6 +128,7 @@ img {
     font-size: 72px;
     color: #2e78ff;
     font-weight: 800;
+    letter-spacing: 4px;
     /* font-family: 'Calistoga'; */
 }
 
@@ -137,13 +139,13 @@ img {
 }
 
 .section-block {
-    margin: 32px 0;
+    margin-bottom: 64px;
     display: flex;
 }
 
 .section-intro {
     flex: 3;
-    margin-right: 64px;
+    margin-right: 80px;
 }
 
 .section-content {
@@ -166,11 +168,12 @@ img {
     padding: 16px;
     font-weight: 800;
     transition: 0.5s;
-    margin-bottom: 40px;
+    margin: 64px 0;
     background: #FFF9EC;
     border: #2e78ff 1px solid;
     color: #2e78ff;
     cursor: pointer;
+    letter-spacing: 3px;
 }
 
 .next-project:hover {

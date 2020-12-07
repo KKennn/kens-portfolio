@@ -13,6 +13,11 @@
     src: url('DMSerifDisplay-Regular.ttf');
 }
 
+@font-face {
+    font-family: Lulo;
+    src: url('lulo_clean.ttf');
+}
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -26,7 +31,7 @@ html {
 
 body {
     margin: 0px;
-    font-family: 'Avenir';
+    font-family: 'Avenir Light';
     background: #FFF9EC;
     line-height: 1.8;
     color: #000020;
@@ -251,13 +256,11 @@ img {
 .profile-pic {
     width: 240px;
     height: 240px;
-    margin: 0 auto;
-    border-radius: 50%;
-    text-align: center;
-    margin: 0 280px;
+    margin: 0px auto;
+    margin-bottom: 56px;
 }
 
 .profile {
     margin: 0 auto;
-    width: 800px;
+    max-width: 640px;
 }
